@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  button:disabled {
+    background-color: #e00000;
+    cursor: not-allowed;
+  }
+  #meme-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
